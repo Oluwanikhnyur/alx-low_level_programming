@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all single-digit numbers of base 10
- * starting from 0, separated by spaces, and followed by a new line.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Description: Prints all single-digit numbers of base 10
+ *              starting from 0 on a single line without spaces.
+ *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,10 +14,10 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-	printf("%d ", i);
+printf("%d", i);
 }
 
-	printf("\n");
+printf("\n");
 
 return (0);
 }
