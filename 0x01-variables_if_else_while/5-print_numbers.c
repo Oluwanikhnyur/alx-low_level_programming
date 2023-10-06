@@ -2,18 +2,20 @@
 
 /**
  * main - program that prints all single-digit numbers of base 10
- * starting from 0, followed by a new line.
+ * starting from 0, separated by spaces, and followed by a new line.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    int i;
+int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        printf("%d\n", i);
-    }
+for (i = 0; i < 10; i++)
+{
+	printf("%d ", i);
+}
 
-    return (0);
+	printf("\n");
+
+return (0);
 }
